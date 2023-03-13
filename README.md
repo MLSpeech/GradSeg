@@ -1,4 +1,4 @@
-# GradSeg: Unsupervised Word Segmentation Using Temporal Gradient Pseudo-Labels
+# GradSeg: Unsupervised Word Segmentation Using Temporal Gradient Pseudo-Labels (ICASSP 2023)
 
 
 Tzeviya Sylvia Fuchs (fuchstz@cs.biu.ac.il) \
