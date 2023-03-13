@@ -56,7 +56,7 @@ In this example, we will demonstrate how to run GradSeg on the [Buckeye](https:/
 	Result should be:
 
 	```
-	Final result: 31.015404643089606 32.232243517474635 31.612118531623173 3.923337091319068 40.71275576844716
+	Final result: 45.77675489067894 44.84274602637809 45.30493707647628 -2.040356216886474 53.62285114327586
 	```
 
 	which are the `precision`, `recall`, `F-score`, `OS`, and `R-value`.
