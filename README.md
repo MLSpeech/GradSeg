@@ -2,12 +2,21 @@
 
 
 Tzeviya Sylvia Fuchs (fuchstz@cs.biu.ac.il) \
-Yedid Hoshen (yedid.hoshen@mail.huji.ac.il) \            
+Yedid Hoshen (yedid.hoshen@mail.huji.ac.il)             
  
 
 GradSeg is an unsupervised approach for word segmentation using pretrained deep self-supervised features. It uses the temporal gradient magnitude of the embeddings (the distance between the embeddings of subsequent frames) to define psuedo-labels for word centers, and trains a linear classifier using these psuedo-lables. It then uses the classifier score to predict whether a frame is a word or a boundary.
 
 
+If you find our work useful, please cite: 
+```
+@inproceedings{fuchs23_icassp,
+  author={Tzeviya Sylvia Fuchs and Yedid Hoshen},
+  title={{Unsupervised Word Segmentation Using Temporal Gradient Pseudo-Labels}},
+  year=2023,
+  booktitle={ICASSP 2023},
+}
+```
 
 
 ------
@@ -35,7 +44,7 @@ GradSeg is an unsupervised approach for word segmentation using pretrained deep 
 
 In this example, we will demonstrate how to run GradSeg on the [Buckeye](https://buckeyecorpus.osu.edu/) corpus. 
 
-- We use the same experimental setup as in "DSegKNN: Unsupervised Word Segmentation using K Nearest Neighbors (INTERSPEECH 2022)"" ([Paper](https://arxiv.org/pdf/2204.13094.pdf), [Code](https://github.com/MLSpeech/DSegKNN), see README file there for data preprocessing.
+- We use the same experimental setup as in "DSegKNN: Unsupervised Word Segmentation using K Nearest Neighbors (INTERSPEECH 2022)" ([Paper](https://arxiv.org/pdf/2204.13094.pdf), [Code](https://github.com/MLSpeech/DSegKNN), see README file there for data preprocessing).
 
 
 - Run ```grad_segmenter.py``` with the following options:
