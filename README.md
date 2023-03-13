@@ -2,7 +2,7 @@
 
 
 Tzeviya Sylvia Fuchs (fuchstz@cs.biu.ac.il) \
-Yedid Hoshen (yedid.hoshen@mail.huji.ac.il) \            
+Yedid Hoshen (yedid.hoshen@mail.huji.ac.il)             
  
 
 GradSeg is an unsupervised approach for word segmentation using pretrained deep self-supervised features. It uses the temporal gradient magnitude of the embeddings (the distance between the embeddings of subsequent frames) to define psuedo-labels for word centers, and trains a linear classifier using these psuedo-lables. It then uses the classifier score to predict whether a frame is a word or a boundary.
